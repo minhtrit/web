@@ -1,0 +1,87 @@
+
+.headerstrip{
+  background: #080808;
+  text-align: center;
+  height: 100%;
+}
+.logo{
+  margin-top: 8px;
+  background: #fff;
+}
+/*==========================Menu HeaderStrip============================*/
+.navbar-inverse{
+  background : #080808 !important;
+}
+.navbar{
+  margin-bottom: 0px !important;
+}
+
+.cl-effect-16 li {
+  display: inline-block; /*khi reponsive repon theo khoi*/
+}
+
+.cl-effect-16 a {
+  background: #080808;
+  color: #fff;
+}
+
+.navbar-nav>li>a {
+  padding: 0px 15px !important;
+}
+
+.navbar-nav>li>span {
+  padding-top: 5px;
+  color: #fff;
+}
+
+.cl-effect-16 a::before {
+  color: #fff;
+  content: attr(data-hover);
+  position: absolute;
+  opacity: 0;
+  -webkit-transform: scale(1.1) translateX(10px) translateY(-10px) rotate(4deg);
+  -moz-transform: scale(1.1) translateX(10px) translateY(-10px) rotate(4deg);
+  transform: scale(1.1) translateX(10px) translateY(-10px) rotate(4deg);
+  -webkit-transition: -webkit-transform 0.5s, opacity 0.1s;
+  -moz-transition: -moz-transform 0.5s, opacity 0.1s;
+  transition: transform 0.5s, opacity 0.1s;
+  pointer-events: none;
+}
+
+.cl-effect-16 a:hover::before,
+.cl-effect-16 a:focus::before {
+  -webkit-transform: scale(1) translateX(0px) translateY(0px) rotate(0deg);
+  -moz-transform: scale(1) translateX(0px) translateY(0px) rotate(0deg);
+  transform: scale(1) translateX(0px) translateY(0px) rotate(0deg);
+  opacity: 1;
+}
+
+/*==============================Menu Bar=================================*/
+#navbar-menubar{
+  background: #fdeece;
+}
+
+.icon-bar {
+  background: red;
+}
+#ul-menubar{
+  padding: 15px 0px; /*đấy item menu về giữa dòng*/
+}
+
+#ul-menubar li a{
+  display: block;
+  margin: 0px;
+  border-right: 1px solid red;
+  color: #080808;
+}
+
+#ul-menubar li > a:hover {
+  margin: 0px 5px;
+  background: #f25c27 !important;
+  color: #fff;
+}
+
+.active {
+  background: #f25c27 !important;
+  color: #fff;
+}
