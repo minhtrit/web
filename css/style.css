@@ -85,3 +85,23 @@
   background: #f25c27 !important;
   color: #fff;
 }
+
+#shiping {
+  background-color: yellow;
+  border: 1px solid green;
+  margin-top: 20px;
+} 
+
+#shiping .col-sm-3{
+  overflow: hidden;
+}
+
+#shiping i {
+  float: left;
+  margin-right: 10px;
+}
+
+#shiping p {
+  float: right;
+  
+}
